@@ -18,6 +18,7 @@ function showPage(pageId) {
 // OPENING ENVELOPE
 
 function openLetter() {
+  document.getElementById("backgroundMusic").play();
   showPage("letter");
 }
 
